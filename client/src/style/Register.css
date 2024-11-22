@@ -1,0 +1,132 @@
+.register-body{
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+.register-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+    
+}
+
+.register-container form {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
+    padding: 20px;
+    max-width: 500px;
+    padding-top: 160px;
+    
+}
+
+.register-container form .input-group {
+    margin-top: 5px;
+}
+
+.register-container form .input-group span {
+    display: block;
+    color: #999;
+    padding-bottom: 5px;
+}
+
+.register-container form .input-group input {
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: #444;
+    font-size: 12px;
+}
+
+.register-container form .submit-button {
+    width: 100%;
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.register-container form .submit-button:hover {
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.card-preview-container {
+    margin-bottom: -100px;
+    position: relative;
+    height: 160px;
+    width: 250px;
+}
+
+.login-link-container {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.login-link-container a {
+     color: orange;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.photo-preview {
+    position: absolute;
+    height: 140%;
+    width: 90%;
+    border-radius: 50%; 
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+    background-image:url("../assets/unknown.jpg");
+}
+
+@media (min-width: 1200px) {
+    .register-container form {
+        width: 700px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .register-container form {
+        width: 600px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .register-container form {
+        width: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    .register-container form {
+        width: 90%;
+        padding: 15px;
+        padding-top: 130px;
+    }
+
+    .card-preview-container {
+        height: 200px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .register-container form {
+        padding-top: 100px;
+    }
+
+    .card-preview-container {
+        height: 150px;
+        width: 250px;
+    }
+}

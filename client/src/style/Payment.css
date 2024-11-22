@@ -1,0 +1,201 @@
+.payment-body {
+    padding: 26px 26px;
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+
+.container-new {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 60px;
+}
+
+.container-new form {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
+    padding: 20px;
+    width: 600px;
+    padding-top: 160px;
+}
+
+.container-new form .inputBox-new {
+    margin-top: 20px;
+}
+
+.container-new form .inputBox-new span {
+    display: block;
+    color: #999;
+    padding-bottom: 5px;
+}
+
+.container-new form .inputBox-new input,
+.container-new form .inputBox-new select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: #444;
+}
+
+.container-new form .flexbox-new {
+    display: flex;
+    gap: 15px;
+}
+
+.container-new form .flexbox-new .inputBox-new {
+    flex: 1 1 150px;
+}
+
+.container-new form .submit-btn-new {
+    width: 100%;
+    background: linear-gradient(135deg, hsla(253, 87%, 50%, 1) 9%, hsla(197, 100%, 60%, 1) 82%);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.container-new form .submit-btn-new:hover {
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.container-new .card-container-new {
+    margin-bottom: -150px;
+    position: relative;
+    height: 250px;
+    width: 400px;
+}
+
+.front-span {
+    color: white;
+}
+
+.container-new .card-container-new .front-new {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+    /* background-image: url("https://rukminim2.flixcart.com/image/850/1000/k69ncsw0/card/r/9/n/60-6010522454483-greeting-for-u-enterprises-original-imafzrgza4bbbhux.jpeg?q=90&crop=false"); */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+    padding: 20px;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform .4s ease-out;
+    color: white;
+}
+
+.container-new .card-container-new .front-new .image-new {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.container-new .card-container-new .front-new .image-new img {
+    height: 50px;
+}
+
+.container-new .card-container-new .front-new .card-number-box-new {
+    padding: 30px 0;
+    font-size: 22px;
+    color: #fff;
+}
+
+.container-new .card-container-new .front-new .flexbox-new {
+    display: flex;
+}
+
+.container-new .card-container-new .front-new .flexbox-new .box-new:nth-child(1) {
+    margin-right: auto;
+}
+
+.container-new .card-container-new .front-new .flexbox-new .box-new {
+    font-size: 15px;
+    color: #fff;
+}
+
+.container-new .card-container-new .back-new {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+    padding: 20px 0;
+    text-align: right;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+    transform: perspective(1000px) rotateY(180deg);
+    transition: transform .4s ease-out;
+}
+
+.container-new .card-container-new .back-new .stripe-new {
+    background: #000;
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+}
+
+.container-new .card-container-new .back-new .box-new {
+    padding: 0 20px;
+}
+
+.container-new .card-container-new .back-new .box-new span-new {
+    color: #fff;
+    font-size: 15px;
+}
+
+.container-new .card-container-new .back-new .box-new .cvv-box-new {
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    color: #333;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container-new .card-container-new .back-new .box-new img-new {
+    margin-top: 30px;
+    height: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+@keyframes fadeInOut-new {
+    0% {
+        opacity: 0;
+        top: -100%;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 720px) {
+    form-new {
+        max-width: 100%;
+    }
+    .flexbox-new {
+        flex-wrap: wrap;
+    }
+    .container-new .card-container-new .front-new {
+        /* display: none; */
+    }
+}
