@@ -17,10 +17,7 @@ Backend: https://clothy-api.onrender.com/Database
 
 
 ## Contributors
-- [Pratham Nemade](https://github.com/pratham1916)
-- [Akash Yadav](https://github.com/Akash4317)
-- [Chandan Pandey](https://github.com/dev-chandan-pandey)
-- [Abhay Kawle](https://github.com/abhay2010-2010)
+- [Tushar Bhoyar](https://github.com/tusharbhoyar04)
 
 
 
